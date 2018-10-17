@@ -33,7 +33,7 @@ public class LuceneTester {
         LuceneTester tester;
         try {
             tester = new LuceneTester();
-            //tester.createIndex();// 创建索引
+            tester.createIndex();// 创建索引
             tester.search("VSTO");
         } catch (IOException e) {
             e.printStackTrace();
